@@ -5,7 +5,7 @@ document.querySelector('form').addEventListener('submit', function(event) {
     const password = document.getElementById('password').value;
 
     // Contoh validasi sederhana (username: admin, password: 1234)
-    if (username === 'admin' && password === '1234') {
+    if (username === 'admin' && password === 'radit1234') {
         // Redirect ke halaman dashboard
         window.location.href = 'dashboard.html';
     } else {
